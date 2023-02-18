@@ -6,7 +6,7 @@
  *
  * Return: 0 if program completes successfully
  */
-int main(void)
+int main(void);
 {
 int i, j, k;
 
@@ -23,7 +23,7 @@ putchar(k + '0');
 if (i != 7 || j != 8 || k != 9)
 {
 putchar(',');
-putchar(' ')
+putchar(' ');
 }
 }
 }
