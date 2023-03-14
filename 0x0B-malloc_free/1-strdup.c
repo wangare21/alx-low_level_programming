@@ -18,7 +18,8 @@ int _strlen(char *s)
 	return (i);
 }
 
-/**_strcpy - copy arrays
+/**
+ * _strcpy - copy arrays
  * @src: array of elements
  * @dest: dest array
  * Return: dest
@@ -53,7 +54,7 @@ char *_strdup(char *str)
 	return (NULL);
 	}
 	size = _strlen(str) + 1;
-	dst = (char * ) malloc(size *sizeof(char));
+	dst = (char *) malloc(size * sizeof(char));
 	if (dst == 0)
 	{
 	return (NULL);
@@ -61,5 +62,3 @@ char *_strdup(char *str)
 	_strcpy(dst, str);
 	return (dst);
 }
-
-	
