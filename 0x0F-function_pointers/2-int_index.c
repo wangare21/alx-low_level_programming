@@ -3,7 +3,7 @@
 
 /**
  * int_index - searchers for an integr
- * @array: array to search in 
+ * @array: array to search in
  * @size: size of the array
  * @cmp: pointer to the comparing function
  * Return: index of the first element for which
